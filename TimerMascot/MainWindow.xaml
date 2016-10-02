@@ -1,0 +1,36 @@
+﻿<Window x:Class="TimerMascot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TimerMascot"
+        Title="MainWindow" Height="400" Width="700"
+        AllowsTransparency="true"
+        WindowStyle="None"
+        Background="Transparent"
+        ResizeMode="NoResize"
+        >
+
+    <Window.ContextMenu>
+        <ContextMenu>
+            <MenuItem Header="終了" Click="Quit_Clicked"/>
+        </ContextMenu>
+    </Window.ContextMenu>
+
+    <Grid>
+        <Image Source="れんちょん.png" Margin="352,50,-1,0"/>
+        <Image Source="吹き出し.png" Margin="-61,6,187,107"/>
+        <Canvas HorizontalAlignment="Left" Height="110" Margin="60,50,0,0" VerticalAlignment="Top" Width="340" Visibility="Hidden">
+            <Label x:Name="label" Content="時間を入力するのん" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="APJapanesefont" FontSize="24" Height="37" Width="193" Canvas.Top="21" Canvas.Left="16" />
+            <TextBox x:Name="timerInput" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" Background="{x:Null}" TextChanged="timerInput_TextChanged" Text="3600" FontFamily="APJapanesefont" FontSize="24" Canvas.Left="214" Canvas.Top="25"/>
+            <Label x:Name="label1" Content="秒" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="APJapanesefont" Height="34" Width="34" FontSize="24" Canvas.Left="287" Canvas.Top="21"/>
+            <Button x:Name="StartButton" Content="すた～と" HorizontalAlignment="Left" VerticalAlignment="Top" Width="111" Click="button_Click" FontFamily="APJapanesefont" FontSize="24" Height="31" Canvas.Left="115" Canvas.Top="63"/>
+        </Canvas>
+        <Canvas HorizontalAlignment="Left" Height="110" Margin="60,50,0,0" VerticalAlignment="Top" Width="340" >
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="time" Canvas.Left="128" Canvas.Top="49" FontSize="24" FontFamily="APJapanesefont"/>
+            <TextBlock x:Name="textBlock_Copy" TextWrapping="Wrap" Text="残り" Canvas.Left="30" Canvas.Top="49" FontSize="24" FontFamily="APJapanesefont"/>
+            <TextBlock x:Name="textBlock_Copy1" TextWrapping="Wrap" Text="TextBlock" Canvas.Left="226" Canvas.Top="49" FontSize="24" FontFamily="APJapanesefont"/>
+
+        </Canvas>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\bin\Debug\TimerMascot.exe.config
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot.csprojResolveAssemblyReference.cache
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\MainWindow.g.cs
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\App.g.cs
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot_MarkupCompile.cache
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot_MarkupCompile.lref
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\bin\Debug\TimerMascot.exe
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\bin\Debug\TimerMascot.pdb
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\MainWindow.baml
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot.g.resources
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot.Properties.Resources.resources
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot.csproj.GenerateResource.Cache
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot.exe
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot.pdb
