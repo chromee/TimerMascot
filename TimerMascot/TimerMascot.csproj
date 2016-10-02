@@ -104,6 +104,11 @@
   <ItemGroup>
     <Resource Include="吹き出し.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="AGDRec_20160910_231329.mp4" />
+    <Content Include="すこー.mp3" />
+    <Content Include="すこー.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

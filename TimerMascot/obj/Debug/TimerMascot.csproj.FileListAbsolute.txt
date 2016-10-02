@@ -12,3 +12,4 @@ D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerM
 D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot.csproj.GenerateResource.Cache
 D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot.exe
 D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot.pdb
+D:\Document\Visual Studio 2015\Projects\TimerMascot\TimerMascot\obj\Debug\TimerMascot_Content.g.cs
