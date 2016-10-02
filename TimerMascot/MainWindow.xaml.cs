@@ -22,6 +22,7 @@ namespace TimerMascot
     public partial class MainWindow : Window
     {
         DispatcherTimer timer;
+        int timerCount;
 
         public MainWindow()
         {
@@ -44,27 +45,43 @@ namespace TimerMascot
             //if()
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void StartButton_Click(object sender, RoutedEventArgs e)
         {
+            timerCount = Int32.Parse(timerInput.Text);
+            timerLabel.Content = timerCount;
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(1.0);
             timer.Tick += timer_Tick;
             timer.Start();
-            int timerCount = Int32.Parse(timerInput.Text);
-            firstInputHidden();
+            FirstCanvas.Visibility = Visibility.Hidden;
+            CountCanvas.Visibility = Visibility.Visible;
         }
 
         void timer_Tick(object sender, EventArgs e)
         {
-            //timerText.Text = ;
+            timerCount--;
+            timerLabel.Content = timerCount;
         }
 
-        void firstInputHidden()
+        private void StopButton_Click(object sender, RoutedEventArgs e)
         {
-            label.Visibility = Visibility.Hidden;
-            timerInput.Visibility = Visibility.Hidden;
-            label1.Visibility = Visibility.Hidden;
-            StartButton.Visibility = Visibility.Hidden;
+            if(StopButton.Content.ToString()=="すとっぷ")
+            {
+                timer.Stop();
+                StopButton.Content = "さいかい";
+            }
+            else
+            {
+                timer.Start();
+                StopButton.Content = "すとっぷ";
+            }
+            
+        }
+
+        private void ResetButton_Click(object sender, RoutedEventArgs e)
+        {
+            FirstCanvas.Visibility = Visibility.Visible;
+            CountCanvas.Visibility = Visibility.Hidden;
         }
     }
 }
